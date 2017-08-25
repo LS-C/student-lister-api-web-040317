@@ -21,7 +21,7 @@ class Api::V1::StudentsController < ApplicationController
     student.destroy
     render json: student
   end
-
+# adding some notes
   private
 
   def student_params
